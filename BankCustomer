@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class BankCustomer {
+
+	public static void main(String[] args) {
+		
+		String[][][]arr=new String[3][2][4];
+		
+		Scanner scan=new Scanner(System.in);
+		
+		for(int i=0;i<=arr.length-1;i++){
+			
+			for(int j=0;j<=arr[i].length-1;j++){
+				
+				for(int k=0;k<=arr[i][j].length-1;k++){
+					
+					System.out.println("Name of the customers for branch:"+i+" "+"Bank:"+j+" "+"Customer:"+k);
+					
+					arr[i][j][k]=scan.next();
+					
+				}
+				
+				
+			}
+			
+			
+		}
+		
+		
+for(int i=0;i<=arr.length-1;i++){
+			
+			for(int j=0;j<=arr[i].length-1;j++){
+				
+				for(int k=0;k<=arr[i][j].length-1;k++){
+					
+					System.out.println("Name of the customers for all banks & branches are:"+arr[i][j][k]);
+					
+				
+
+					
+				}
+				
+				System.out.println("---Next Bank---");
+			}
+			
+			System.out.println("---Next Branch---");
+			
+		}
+	
+		
+
+	}
+
+}
