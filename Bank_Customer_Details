@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BankCustomer {
+public class Bank_Customer_Details {
 
 	public static void main(String[] args) {
 		
