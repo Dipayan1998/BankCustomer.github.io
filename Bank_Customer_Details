@@ -1,3 +1,5 @@
+//Q1. Write a java program to store the names of customers in the bank of 3 branches. Take the user input from keyboard & also display the contents of the array.
+
 import java.util.Scanner;
 
 public class Bank_Customer_Details {
